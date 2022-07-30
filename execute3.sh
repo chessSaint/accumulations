@@ -1,0 +1,6 @@
+numactl --interleave=all ./minimap07 -a ../genedata/reference/hg38.chromFa.mmi /mnt/data/reads/SRR12660775_subreads.fastq.gz > /mnt/data/result/gen3_7_21.sam 2> /mnt/data/result/log/gen3_7_21.log
+numactl --interleave=all ./minimap06 -a ../genedata/reference/hg38.chromFa.mmi /mnt/data/reads/SRR12660775_subreads.fastq.gz > /mnt/data/result/gen3_6_21.sam 2> /mnt/data/result/log/gen3_6_21.log
+numactl --interleave=all ./minimap05 -a ../genedata/reference/hg38.chromFa.mmi /mnt/data/reads/SRR12660775_subreads.fastq.gz > /mnt/data/result/gen3_5_21.sam 2> /mnt/data/result/log/gen3_5_21.log
+numactl --interleave=all ./minimap04 -a ../genedata/reference/hg38.chromFa.mmi /mnt/data/reads/SRR12660775_subreads.fastq.gz > /mnt/data/result/gen3_4_21.sam 2> /mnt/data/result/log/gen3_4_21.log
+numactl --interleave=all ./minimap03 -a ../genedata/reference/hg38.chromFa.mmi /mnt/data/reads/SRR12660775_subreads.fastq.gz > /mnt/data/result/gen3_3_21.sam 2> /mnt/data/result/log/gen3_3_21.log
+numactl --interleave=all ./minimap02 -a ../genedata/reference/hg38.chromFa.mmi /mnt/data/reads/SRR12660775_subreads.fastq.gz > /mnt/data/result/gen3_2_21.sam 2> /mnt/data/result/log/gen3_2_21.log
