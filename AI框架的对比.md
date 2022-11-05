@@ -1,0 +1,1 @@
+1. keras和tensorflow的区别：tensorflow是比较底层的深度学习模型开发框架，keras是基于tensorflow的高级API。二者在使用时要保持版本一致。
